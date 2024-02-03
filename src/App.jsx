@@ -1,7 +1,8 @@
 import './App.css';
+import ProfileCard from './components/profile-card';
 
 function App() {
-  return <button className="btn">Hello World</button>;
+  return <ProfileCard />;
 }
 
 export default App;
