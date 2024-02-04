@@ -10,9 +10,7 @@ function ProfileCard() {
           width={250}
         />
         <p className="text-xl text-center">
-          Full-Stack Software Engineer
-          <br />
-          hey@luis.best
+          Sr. Full-Stack Software Engineer
           <br />
           Based in Mexico 🇲🇽
         </p>
@@ -21,22 +19,22 @@ function ProfileCard() {
             href="https://github.com/luisintosh"
             className="btn btn-circle btn-outline"
           >
-            <ion-icon name="logo-github"></ion-icon>
+            <ion-icon name="logo-github" size="large"></ion-icon>
           </a>
           <a
             href="https://www.linkedin.com/in/luismendieta/"
             className="btn btn-circle btn-outline"
           >
-            <ion-icon name="logo-linkedin"></ion-icon>
+            <ion-icon name="logo-linkedin" size="large"></ion-icon>
           </a>
           <a
             href="https://dev.to/luisintosh"
             className="btn btn-circle btn-outline"
           >
-            <ion-icon name="newspaper"></ion-icon>
+            <ion-icon name="newspaper" size="large"></ion-icon>
           </a>
         </div>
-        <a href="mailto:hey@luis.best" className="btn btn-block btn-primary">
+        <a href="#contact" className="btn btn-block btn-primary">
           Contact me!
         </a>
       </div>

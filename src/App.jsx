@@ -1,15 +1,24 @@
 import './App.css';
+import AboutSection from './components/about-section';
+import ContactSection from './components/contact-section';
+import IntroduceSection from './components/introduce-section';
+import PortfolioSection from './components/portfolio-section';
 import ProfileCard from './components/profile-card';
-import SectionTitle from './components/section-title';
+import ResumeSection from './components/resume-section';
+import SkillsSection from './components/skills-section';
 
 function App() {
   return (
-    <>
+    <div className="container mx-auto px-2 sm:px-0">
       <ProfileCard />
-      <SectionTitle id="introduce" title="Introduce">
-        <ion-icon name="home"></ion-icon>
-      </SectionTitle>
-    </>
+      <IntroduceSection />
+      <AboutSection />
+      <ResumeSection />
+      <SkillsSection />
+      <PortfolioSection />
+      <ContactSection />
+      <div className="space my-20"></div>
+    </div>
   );
 }
 
