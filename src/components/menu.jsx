@@ -1,13 +1,20 @@
+import { Link } from 'react-scroll';
+
 function MenuItem({ sectionId, sectionName, iconName }) {
   return (
     <li>
-      <a
-        href={`#${sectionId}`}
+      <Link
+        activeClass="active"
+        to={sectionId}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
         className="tooltip tooltip-bottom xl:tooltip-left"
         data-tip={sectionName}
       >
         <ion-icon name={iconName}></ion-icon>
-      </a>
+      </Link>
     </li>
   );
 }
