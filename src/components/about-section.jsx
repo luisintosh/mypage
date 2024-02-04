@@ -3,9 +3,7 @@ import SectionTitle from './section-title';
 function AboutSection() {
   return (
     <section className="flex flex-col gap-8 text-balance">
-      <SectionTitle id="about" title="About">
-        <ion-icon name="person"></ion-icon>
-      </SectionTitle>
+      <SectionTitle id="about" title="About" iconName="person" />
       <h3>
         Every great app begin with an even{' '}
         <span className="text-primary">better story</span>

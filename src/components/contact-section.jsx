@@ -16,9 +16,7 @@ function ContactSection() {
 
   return (
     <section>
-      <SectionTitle id="contact" title="Contact">
-        <ion-icon name="mail"></ion-icon>
-      </SectionTitle>
+      <SectionTitle id="contact" title="Contact" iconName="mail" />
       <form className="flex flex-col gap-5" onSubmit={submit}>
         <label className="form-control w-full max-w-lg">
           <div className="label">

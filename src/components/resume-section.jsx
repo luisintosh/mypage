@@ -3,9 +3,7 @@ import SectionTitle from './section-title';
 function ResumeSection() {
   return (
     <section className="flex flex-col gap-8 text-balance">
-      <SectionTitle id="resume" title="Resume">
-        <ion-icon name="briefcase"></ion-icon>
-      </SectionTitle>
+      <SectionTitle id="resume" title="Resume" iconName="briefcase" />
       <h3>
         Education & <span className="text-primary">Experience</span>
       </h3>

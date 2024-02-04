@@ -3,9 +3,7 @@ import SectionTitle from './section-title';
 function IntroduceSection() {
   return (
     <section className="flex flex-col gap-8 text-balance">
-      <SectionTitle id="introduce" title="Introduce">
-        <ion-icon name="home"></ion-icon>
-      </SectionTitle>
+      <SectionTitle id="introduce" title="Introduce" iconName="home" />
       <h3>
         Hello there! I'm <span className="text-primary">Luis</span>, a
         Full-Stack Developer.

@@ -12,9 +12,7 @@ function SkillItem({ imageSrc, title }) {
 function SkillsSection() {
   return (
     <section className="flex flex-col">
-      <SectionTitle id="skills" title="My Skills">
-        <ion-icon name="barbell"></ion-icon>
-      </SectionTitle>
+      <SectionTitle id="skills" title="My Skills" iconName="barbell" />
       <div className="flex flex-wrap gap-5 text-center">
         <SkillItem imageSrc="/logos/angular.png" title="Angular" />
         <SkillItem imageSrc="/logos/react.png" title="React" />
