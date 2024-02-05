@@ -4,6 +4,6 @@
 
 @layer base {
   h3 {
-    @apply font-light text-6xl;
+    @apply font-light text-6xl text-white;
   }
 };

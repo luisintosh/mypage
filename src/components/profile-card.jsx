@@ -1,6 +1,6 @@
 function ProfileCard() {
   return (
-    <div className="card bg-base-100 card-bordered border-current sm:w-96">
+    <div className="card bg-base-100 card-bordered border-neutral-700 sm:w-96">
       <div className="card-body gap-10 flex flex-col items-center">
         <h1 className="card-title text-4xl">Luis Mendieta</h1>
         <img

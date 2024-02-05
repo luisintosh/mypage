@@ -21,7 +21,7 @@ function MenuItem({ sectionId, sectionName, iconName }) {
 
 function Menu() {
   return (
-    <ul className="menu menu-horizontal xl:menu-vertical bg-base-200 rounded-box border border-current">
+    <ul className="menu menu-horizontal xl:menu-vertical bg-base-200 rounded-box border border-neutral-700">
       <MenuItem sectionId="introduce" sectionName="Introduce" iconName="home" />
       <MenuItem sectionId="about" sectionName="About" iconName="person" />
       <MenuItem sectionId="resume" sectionName="Resume" iconName="briefcase" />
