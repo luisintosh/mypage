@@ -10,7 +10,7 @@ function ProfileCard() {
           width={250}
         />
         <p className="text-xl text-center">
-          Sr. Full-Stack Software Engineer
+          Sr. Full-Stack Software Developer
           <br />
           Based in Mexico 🇲🇽
         </p>
