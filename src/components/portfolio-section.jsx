@@ -2,7 +2,7 @@ import SectionTitle from './section-title';
 
 function PortfolioItem({ title, description, tags, imageSrc }) {
   return (
-    <div className="card bg-base-100 border border-neutral-700 max-w-[720px] aspect-square">
+    <div className="card bg-base-100 border border-neutral-700">
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
