@@ -11,8 +11,8 @@ function SkillItem({ imageSrc, title }) {
 
 function SkillsSection() {
   return (
-    <section className="flex flex-col">
-      <SectionTitle id="skills" title="My Skills" iconName="barbell" />
+    <section id="skills" className="flex flex-col">
+      <SectionTitle title="My Skills" iconName="barbell" />
       <div className="flex flex-wrap gap-5 text-center">
         <SkillItem imageSrc="/logos/angular.png" title="Angular" />
         <SkillItem imageSrc="/logos/react.png" title="React" />

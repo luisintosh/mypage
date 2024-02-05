@@ -6,7 +6,7 @@ function FullBackground() {
       autoPlay
       loop
     >
-      <source src="/video-bg.mp4" type="video/mp4" />
+      <source src="/bg.mp4" type="video/mp4" />
     </video>
   );
 }

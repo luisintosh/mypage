@@ -23,8 +23,8 @@ function PortfolioItem({ title, description, tags, imageSrc }) {
 
 function PortfolioSection() {
   return (
-    <section>
-      <SectionTitle id="portfolio" title="Portfolio" iconName="folder" />
+    <section id="portfolio">
+      <SectionTitle title="Portfolio" iconName="folder" />
       <div className="flex flex-col gap-10">
         <PortfolioItem
           title="Ultra Blockchain Wallet"
