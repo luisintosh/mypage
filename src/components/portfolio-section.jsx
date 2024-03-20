@@ -25,7 +25,7 @@ function PortfolioSection() {
   return (
     <section id="portfolio">
       <SectionTitle title="Portfolio" iconName="folder" />
-      <div className="flex flex-col gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <PortfolioItem
           title="Ultra Blockchain Wallet"
           description="Safely store private keys, manage Ultra tokens and NFTs, easily sending, receiving, and spending your digital assets."
